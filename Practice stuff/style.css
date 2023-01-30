@@ -1,0 +1,41 @@
+body {
+    background-color: purple;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background-color: aqua;
+    /* margin: 30px; */
+    /* this makes your box bigger whithout changing the whole boxes color. Its kind of like an invisible fence */
+    padding: 30px;
+    /* this expands the whole box and its color properties */
+    border: 6px solid green;
+    /* margin-left: 12px; */
+    /* margin: 0 0 0 12px; */
+    /* these two are the same they both say that the left margin should be 12px */
+    /* margin: 20px 12px; */
+    margin: 20px auto;
+    /* this is telling it to make the top and bottom a margin of 20 but it gives the left and right an automatic amount to make it center */
+    /* this is telling them to make the top and bottom 20px and the left and right 12px */
+    border-radius: 12px;
+    /* gives the outline of a box a rounded edge */
+    color: blue;
+    /* changes text color */
+    text-align: center;
+    width: 80%;
+
+    box-sizing: border-box;
+
+    
+}
+
+.grid-container {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin: 12px auto;
+
+    background-color: aqua;
+}
