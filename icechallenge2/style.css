@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #737373;
+}
+
+.image {
+    border-radius: 150px;
+    width: 20%;
+    height: 20%;
+    border-width: 12px;
+    border-color: #444444;
+    border-style: solid;
+    margin: 35px 60px;
+}
+
+section {
+   margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
