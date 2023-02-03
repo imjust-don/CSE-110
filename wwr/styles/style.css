@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Rowdies&display=swap');
+
+:root {
+--heading-font: "Rowdies";
+--paragraph-font: "Bakbak One";
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-#hero-msg h1, #hero-msg h4.button-box, main section {
+h2 {
+    margin: 0;
+}
 
+#hero-msg h1, #hero-msg h4.button-box, main section {
+    font-family: var(--heading-font);
     text-align: center;
 }
 
@@ -15,6 +26,10 @@
 
 body {
     background-color: #4a5257;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -29,6 +44,7 @@ nav a:hover {
 nav a {
 
     color: black;
+    padding: 35px;
 }
 
 .icon, .logo {
@@ -50,16 +66,26 @@ nav a {
 .book, .join {
 
     color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #545454;
+    text-align: center;
 }
 
 .msg {
 
     background-color: #9ECE9A;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
 
     background-color: #545454;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title, h4, footer, footer a:hover {
@@ -74,6 +100,7 @@ color: #F0B67F
 
 footer a {
     color: #9ECE9A;
+
 }
 
 nav a, .book, .join, footer a {
@@ -84,4 +111,38 @@ nav a, .book, .join, footer a {
 footer p a:hover {
 
     text-decoration: underline;
+}
+
+.home-title {
+    font-size: 2em;
+}
+
+#logo_link {
+    padding: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg p {
+    padding: 15px;
+    font-size: .8em;
+}
+
+footer .social img {
+    padding-top: 15px; 
+}
+
+.rivers-card, .camping-card, .rapids-card {
+
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }

@@ -6,16 +6,19 @@ body{
 
 .image {
     border-radius: 150px;
-    width: 20%;
-    height: 20%;
+    width: auto;
+    height: auto;
     border-width: 12px;
     border-color: #444444;
     border-style: solid;
-    margin: 35px 60px;
+    /* margin: 35px 60px; */
 }
 
 section {
-   margin: 0 auto;
-    grid-template-columns: 1fr 1fr 1fr;
+   /* margin: 35px 10px 0px 60px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
 }
