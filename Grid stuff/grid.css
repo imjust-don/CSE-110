@@ -1,0 +1,33 @@
+body {
+    background-color: orange;
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.bottom {
+    grid-row: 1;
+    grid-column: 1 / 3;
+    /* this is telling bottom to span all the way to column 1 and 2 */
+}
+.bottom img {
+    width: 100%;
+    /* since this is in the grid 100% makes it take up 100% of the space in the grid */
+}
+
+.top {
+    grid-row: 1;
+    grid-column: 1;
+    text-align: right;
+    z-index: 1;
+
+}
+p {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: right;
+}
