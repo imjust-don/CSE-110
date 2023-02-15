@@ -21,15 +21,17 @@ section {
 }
 
 #name{
-    width: 100%;
+    width: 90%;
     max-height: 100%;
     grid-row: 4 / 5;
     grid-column: 2 / 3;
     justify-self: center;
+    box-sizing: border-box;
+    margin-top: 12px;
 
 }
 #email {
-    width: 100%;
+    width: 90%;
     max-height: 100%;
     grid-row: 3 / 4;
     grid-column: 2 / 3;
@@ -37,6 +39,8 @@ section {
     margin-right: 30px;
     margin-left: 30px;
     box-sizing: border-box;
+    margin-bottom: 12px;
+    
     
 }
 
