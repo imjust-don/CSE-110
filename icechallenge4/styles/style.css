@@ -1,0 +1,53 @@
+section {
+    display: grid;
+    grid-template-columns: 249px 1fr;
+    grid-template-rows: repeat(12, 50px);
+}
+
+.thing {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    size: 50%;
+}
+.thing2 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#name{
+    width: 100%;
+    max-height: 100%;
+    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+    justify-self: center;
+
+}
+#email {
+    width: 100%;
+    max-height: 100%;
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    justify-self: center; 
+    margin-right: 30px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    
+}
+
+
+#sub {
+    justify-self: center;
+    background-color: orange;
+    color: white;
+    border-radius: 12px;
+    grid-row: 5 / 6;
+    grid-column: 2 / 3;
+    width: 15%;
+    padding: 30px;
+}
