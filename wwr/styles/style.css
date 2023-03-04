@@ -360,3 +360,11 @@ footer {
     box-sizing: border-box;
     margin-top: 50%;
 }
+
+#info {
+    grid-column: 4 / 6;
+    grid-row: 1 / 3;
+    color: #F0B67F;
+    font-size: x-large;
+    text-align: center;
+}
