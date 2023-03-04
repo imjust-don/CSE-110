@@ -298,3 +298,65 @@ footer {
         margin-top: 25px;
     }
 }
+
+#headboi {
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+    margin-top: 8px;
+    max-width: 95%;
+    color: #F0B67F;
+    text-align: center;
+    font-size: 5em;
+    background-color: #6f7364;
+    border-radius: 15px;
+}
+
+#levels {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.relaxing {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.intermediat {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.hard {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.intense {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.difficulty {
+    border: solid 6px #F0B67F;
+    box-sizing: border-box;
+    border-radius: 12px;
+    max-width: 256px;
+    margin: 12px;
+}
+
+.text {
+    justify-self: center;
+    color: #545454;
+    background-color: #6f7364;
+    align-self: baseline;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    border: solid 3px #F0B67F;
+    box-sizing: border-box;
+    margin-top: 50%;
+}
