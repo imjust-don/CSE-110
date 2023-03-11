@@ -80,7 +80,7 @@ header {
 #grey {
     grid-row: 1 / 2;
     grid-column: 1 / 6;
-    background-color: darkgreen;
+    background-color: #202021;
     max-height: 45%;
     z-index: -1;
 }
@@ -95,7 +95,7 @@ header {
 
 footer {
     margin: 0 auto;
-    background-color: darkgreen;
+    background-color: #202021;
     color: red;
     padding-bottom: 10px;
     padding-top: 5px;
@@ -105,8 +105,20 @@ footer {
 
 #footbox {
     max-width: 1200px;
-    background-color: darkgreen;
+    background-color: #202021;
     margin: 0 auto;
     align-content: center;
 }
 
+.create {
+    border: solid red 3px;
+    border-radius: 30px;
+    height: 400px;
+    width: 600px;
+    color: red;
+    background-color: #202021;
+}
+
+#download {
+    color: white;
+}
