@@ -129,6 +129,11 @@ footer {
     text-decoration: none;
 }
 
+#name {
+    margin-right: 0;
+    display: inline-block;
+}
+
 .foot:hover {
     color: green;
 } 
