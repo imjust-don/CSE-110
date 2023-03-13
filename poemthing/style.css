@@ -1,0 +1,43 @@
+#one, #two, #three, #four {
+    border: solid black;
+    max-width: 600px;
+}
+
+#two {
+    margin-left: 300px;
+    margin-top: 1px;
+}
+
+#three {
+    margin-left: 600px;
+    margin-top: 1px;
+}
+
+#four {
+    margin-top: 1px;
+    margin-left: 300px;
+}
+
+.onethree {
+    text-align: center;
+}
+
+.onefour {
+    text-align: right;
+}
+
+.two {
+    text-align: center;
+}
+
+.three {
+    text-align: right;
+}
+
+.fourone {
+    text-align: right;
+}
+
+.fourtwo {
+    text-align: center;
+}
