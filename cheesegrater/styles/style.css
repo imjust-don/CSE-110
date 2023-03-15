@@ -108,6 +108,7 @@ footer {
     background-color: #202021;
     margin: 0 auto;
     align-content: center;
+    color: red;
 }
 
 .create {
@@ -123,6 +124,22 @@ footer {
     color: white;
 }
 
+.foot {
+    color: red;
+    text-decoration: none;
+    margin-top: 0;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+#name {
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+.foot:hover {
+    color: green;
+} 
 
 
 @media screen and (max-width: 900px) {
