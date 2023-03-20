@@ -1,3 +1,8 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gajraj+One&display=swap');
+
+
 body{
     margin: 0px;
     padding: 0;
@@ -39,6 +44,7 @@ header {
     color: red;
     text-decoration: none;
     justify-self: center;
+    font-family: "Anton, sans-serif";
 }
 
 .nav:hover {
@@ -91,6 +97,7 @@ header {
     font-size: 3em;
     text-transform: capitalize;
     text-decoration: underline;
+    font-family: 'Gajraj One', cursive;;
 }
 
 footer {
@@ -100,6 +107,7 @@ footer {
     padding-bottom: 10px;
     padding-top: 5px;
     align-content: center;
+    font-family: "Anton, sans-serif";
 }
 
 
