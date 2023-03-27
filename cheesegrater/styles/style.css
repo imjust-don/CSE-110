@@ -293,3 +293,24 @@ footer {
     }
 
 }
+
+#images {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-self: center;
+}
+
+#text {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-self: center;
+}
+
+#createcontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cloud {
+    max-width: 600px;
+}
