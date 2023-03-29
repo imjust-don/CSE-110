@@ -127,6 +127,7 @@ footer {
     color: red;
     background-color: #202021;
     padding: 10px;
+    margin-right: 12px;
 }
 
 #download {
@@ -312,5 +313,6 @@ footer {
 }
 
 .cloud {
-    max-width: 600px;
+    max-width: 500px;
+    margin-top: 30px;
 }
