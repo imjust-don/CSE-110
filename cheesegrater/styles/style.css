@@ -97,7 +97,7 @@ header {
     font-size: 3em;
     text-transform: capitalize;
     text-decoration: underline;
-    font-family: 'Gajraj One', cursive;;
+    font-family: 'Gajraj One', cursive;
 }
 
 footer {
@@ -315,4 +315,59 @@ footer {
 .cloud {
     max-width: 500px;
     margin-top: 30px;
+}
+
+#creaters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: red;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.creaters {
+    max-width: 300px;
+}
+
+#me {
+    border-radius: 200px;
+    justify-self: left;
+    grid-column: 2 / 3;
+    margin-top: 30px;
+    max-width: 230px;
+}
+
+#dongyu {
+    justify-self: right;
+    margin-bottom: -30px;
+    grid-column: 1 / 2;
+}
+
+#about_page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#about {
+    max-width: 300px;
+    margin-left: 30px;
+}
+
+.me {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: left;
+}
+
+.dongyu {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#creaters h1 {
+    grid-column: 1 / 3;
+    margin: 0 auto;
+    text-decoration: underline;
+    font-size: 3em;
+    font-family: 'Gajraj One', cursive;
 }
